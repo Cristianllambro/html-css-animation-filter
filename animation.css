@@ -101,5 +101,16 @@
 /* esercizio 10 */
 
 .ex-10-icon{
-    animation-duration:  2s infinite;
+    animation-name: spin;
+    animation-direction: linear;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
